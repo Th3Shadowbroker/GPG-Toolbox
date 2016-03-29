@@ -1,0 +1,13 @@
+{
+    "name": "vendor/g-p-g-toolbox",
+    "description": "Description of project GPG-Toolbox.",
+    "authors": [
+        {
+            "name": "Jens Fischer",
+            "email": "crafter629@crafter629.de"
+        }
+    ],
+    "require": {
+        "jasonhinkle/php-gpg": "^1.6"
+    }
+}
