@@ -1,8 +1,6 @@
 <?php
-
-require 'lib/th3shadowbroker/gpg-toolbox/KeyManager.php';
-require 'lib/th3shadowbroker/gpg-toolbox/Encrypt.php';
-require 'lib/th3shadowbroker/gpg-toolbox/EncryptedMessage.php';
+require __DIR__ . '/Encrypt.php';
+require __DIR__ . '/EncryptedMessage.php';
 
 echo 'This is your text ( just encrypted ;) ):<br>';
 

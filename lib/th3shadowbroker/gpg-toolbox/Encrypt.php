@@ -1,7 +1,9 @@
 <?php
 
-require $_SERVER['DOCUMENT_ROOT'] . '/vendor/autoload.php';
-require_once 'libs/GPG.php';
+define('GPG_PATH', __DIR__ . '/vendor/jasonhinkle/php-gpg/libs');
+
+require '/vendor/autoload.php';
+require_once GPG_PATH . 'libs/GPG.php';
 
 class Encrypt
 {
